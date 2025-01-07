@@ -154,7 +154,7 @@ sidebar:
   display: always
 
   # Sidebar padding in pixels.
-  padding: 18
+  padding: 100
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: images/avatar.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: True
   # If true, the avatar will be rotated with the cursor.
