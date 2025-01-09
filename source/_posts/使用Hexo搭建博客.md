@@ -1,7 +1,8 @@
 ---
 title: 使用Hexo搭建博客
 data: 2025-01-09 12:42:34
-tags:
+categories: 技术分享
+tags: [博客, 部署]
 ---
 
 # Hexo初体验
