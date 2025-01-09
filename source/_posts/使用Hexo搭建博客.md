@@ -7,7 +7,7 @@ tags: [博客, 部署]
 
 # Hexo初体验
 
-Hexo 是一个快速、简洁且功能强大的静态博客框架，常用于搭建个人博客、技术文档或小型网站。它基于 **Node.js**，使用 Markdown 文件生成静态网页，依赖于其高效的生成流程和丰富的插件及主题生态，受到许多开发者和写作爱好者的喜爱。
+Hexo 是一个快速、简洁且功能强大的静态博客框架，常用于搭建个人博客、技术文档或小型网站。它基于 Node.js，使用 Markdown 文件生成静态网页，依赖于其高效的生成流程和丰富的插件及主题生态，受到许多开发者和写作爱好者的喜爱。
 
 本文旨在介绍笔者搭建 Hexo 的关键过程，以供参考。
 
@@ -92,7 +92,7 @@ npm install
 ### new
 
 ```
-$ hexo new [layout] <title>
+hexo new [layout] <title>
 ```
 
 使用 `layout` 新建一篇名为 `title` 的文章。`layout` 可以为之前提到的模板文件夹 scaffolds 中的任何一种，默认有 draft（草稿）、page（页面）、post（文章）三种。如果没有设置 `layout` 的话，默认使用 [_config.yml](https://hexo.io/zh-cn/docs/configuration) 中的 `default_layout` 参数代替。 如果标题包含空格的话，请使用引号括起来。
@@ -114,7 +114,7 @@ hexo new page --path about/me "About me"
 ### generate
 
 ```
-$ hexo generate
+hexo generate
 ```
 
 生成静态文件。
@@ -130,7 +130,7 @@ $ hexo generate
 ### publish
 
 ```
-$ hexo publish [layout] <filename>
+hexo publish [layout] <filename>
 ```
 
 发表草稿。
@@ -138,7 +138,7 @@ $ hexo publish [layout] <filename>
 ### server
 
 ```
-$ hexo server
+hexo server
 ```
 
 启动服务器。 默认情况下，访问网址为： `http://localhost:4000/`。
@@ -152,7 +152,7 @@ $ hexo server
 ### deploy
 
 ```
-$ hexo deploy
+hexo deploy
 ```
 
 部署你的网站。
@@ -164,7 +164,7 @@ $ hexo deploy
 ### clean
 
 ```
-$ hexo clean
+hexo clean
 ```
 
 清除缓存文件 (`db.json`) 和已生成的静态文件 (`public`)。
