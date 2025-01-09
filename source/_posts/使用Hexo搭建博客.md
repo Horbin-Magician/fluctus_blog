@@ -1,5 +1,5 @@
 ---
-title: 使用Hexo搭建博客
+title: 使用Hexo搭建个人博客
 data: 2025-01-09 12:42:34
 categories: 技术分享
 tags: [博客, 部署]
