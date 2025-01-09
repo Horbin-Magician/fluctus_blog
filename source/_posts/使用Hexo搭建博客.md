@@ -171,14 +171,14 @@ hexo clean
 
 # NexT主题
 
-Hexo 的默认主题是非常简陋的，但幸运的是 Hexo 可以很容易地更换主题，社区也有很多优秀的主题可供选择。笔者选择的是以简洁著称的 [NexT 主题](https://github.com/theme-next/hexo-theme-next)。
+Hexo 的默认主题是非常简陋的，但幸运的是 Hexo 可以很容易地更换主题，社区也有很多优秀的主题可供选择。笔者选择的是以简洁著称的 [NexT 主题](https://github.com/next-theme/hexo-theme-next)。
 
 ## 安装
 
-Hexo 安装主题非常简单，只需要把主题文件放入 themes 目录即可。笔者使用的是 [NexT](https://github.com/theme-next/hexo-theme-next) 主题，官方推荐的方式是直接使用git将项目克隆到 themes 目录，即使用：
+Hexo 安装主题非常简单，只需要把主题文件放入 themes 目录即可。官方推荐的方式是直接使用git将项目克隆到 themes 目录，即使用：
 
 ```shell
-git clone https://github.com/theme-next/hexo-theme-next themes/next
+git clone https://github.com/next-theme/hexo-theme-next themes/next
 ```
 
 但是该方法会同时下载 NexT 的 git 相关文件，这似乎会影响后续使用 git 对自己博客的管理，因此笔者选择直接下载项目代码后手动解压到 themes/next 的方式。这两种方式唯一的区别是后者没有包括 NexT 的 git 相关文件。
